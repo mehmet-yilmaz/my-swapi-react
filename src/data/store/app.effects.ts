@@ -22,7 +22,7 @@ export const AppEffects$ = createListenerMiddleware();
 
 AppEffects$.startListening({
   actionCreator: FetchCategories,
-  effect: async (action, effectListener) => {
+  effect: async (_, effectListener) => {
     try {
       const response = await fetch(import.meta.env.VITE_API_ROOT);
       if (response) {

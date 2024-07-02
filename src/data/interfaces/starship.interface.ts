@@ -1,4 +1,4 @@
-import { IBase } from "../../../data/interfaces/base.interface";
+import { IBase } from "../../data/interfaces/base.interface";
 
 export interface IStarship extends IBase {
   name: string;
