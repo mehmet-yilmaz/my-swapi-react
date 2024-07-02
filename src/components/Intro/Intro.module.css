@@ -1,0 +1,46 @@
+.container {
+    /* margin: auto; */
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.intro {
+max-width: 70%;
+
+}
+
+.enter {
+    background-color: #74747480;
+    border: 5px double #FFE81F;
+    margin: auto;
+    padding: 1%;
+    font-size: large;
+    color: #FFE81F;
+    text-transform: uppercase;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.enter:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width:600px) {
+    .intro {
+        width: 40vw;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .intro {
+        width: 40vw;
+    }
+}

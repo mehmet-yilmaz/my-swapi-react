@@ -1,0 +1,203 @@
+.cardContainer {
+    border-radius: 10px;
+    background-color: rgba(59, 59, 58, 0.603);
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    justify-content: stretch;
+    align-items: center;
+    padding: 10px 5px;
+    border: 4px double #fff425
+}
+.cardContainer button {
+    padding: 10px;
+    margin: 5px;
+
+}
+.image {
+    grid-column: 1;
+    justify-self: center;
+}
+
+.image img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+}
+
+/* .image.poster img {
+    border-radius: 0;
+    border:#fff425 3px solid;
+}  */
+
+.info {
+    width: fill;
+    grid-column: 1;
+    width: auto;
+    display: grid;
+    gap: 5px;
+    text-transform: uppercase;
+    justify-self: stretch;
+}
+
+.title {
+
+    grid-column: 1;
+}
+
+.pair {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.caption {
+    display: flex;
+    align-content: space-between;
+}
+
+
+.cardContainer button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    border: 4px double rgb(156, 156, 143);
+    font-family: "Black Ops One", system-ui;
+    font-weight: 900;
+    font-size: large;
+    text-transform: uppercase;
+    color: black;
+    background-color: #ff3;
+}
+
+.cardContainer button :disabled {
+    background-color: aliceblue;
+}
+
+@media screen and (min-width:600px) {
+    .cardContainer {
+        padding: 10px;
+        border: 5px double #fff425;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #fff425;
+        border: 5px solid white;
+        justify-self: center;
+    }
+
+    .image img {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%;
+    }
+    .info {
+        /* width: 250px; */
+        grid-column: 2;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+}
+
+
+@media screen and (min-width:900px) {
+    .cardContainer {
+        padding: 10px;
+        border: 5px double #fff425;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #fff425;
+        border: 5px solid white;
+        justify-self: center;
+    }
+
+    .image img {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50%;
+    }
+
+    .info {
+        /* width: 400px; */
+        grid-column: 2;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .cardContainer {
+        padding: 10px;
+        border: 5px double #fff425;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #fff425;
+        border: 5px solid white;
+        justify-self: center;
+    }
+
+    .image img {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 50%;
+    }
+
+    .info {
+        width: 300px;
+        grid-column: 2;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .cardContainer {
+        padding: 10px;
+        border: 5px double #fff425;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #fff425;
+        border: 5px solid white;
+        justify-self: center;
+    }
+
+    .image img {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 50%;
+    }
+
+    .info {
+        width: 400px;
+        grid-column: 2;
+        justify-self: stretch;
+        align-self: stretch;
+    }
+}

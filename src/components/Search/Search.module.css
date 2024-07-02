@@ -1,0 +1,66 @@
+.searchContainer {
+    /* background-color: rgba(222, 184, 135, 0.332); */
+    padding: 10px;
+    border: 2px #FF3 double;
+    text-align: center;
+}
+
+.searchForm {
+
+}
+
+.searchBox {}
+
+.searchBar {
+    width: 70vw;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.searchBar input {
+    font-size: larger;
+}
+
+.searchBar select {
+    width: auto;
+    font-size: larger;
+}
+
+.search {
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    border: 4px double rgb(156, 156, 143);
+        font-family: "Black Ops One", system-ui;
+            font-weight: 900;
+            font-size: large;
+            text-transform: uppercase;
+            color: black;
+    /* background-color: #FF3; */
+
+}
+
+.search button {
+    background-color: #ff3;
+    padding: 10px;
+    color: black;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 900;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.search button :disabled {
+    background-color: aliceblue;
+}
+
+@media screen and (min-witdh: 600px) {
+    .searchBar {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .search {
+        width: 20%;
+    }
+}

@@ -1,0 +1,32 @@
+.container {
+    margin-top: 20px;
+    position: relative;
+    display: grid;
+    grid-row:auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.resultContainer {
+    padding: 10px;
+}
+
+.title {
+    padding: 15px;
+    font-size: larger;
+
+}
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        min-height: 500px;
+    }
+
+    .results {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+}

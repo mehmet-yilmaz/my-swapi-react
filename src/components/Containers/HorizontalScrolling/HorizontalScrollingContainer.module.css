@@ -1,0 +1,14 @@
+.horizontalScrollingContainer {
+    &::-webkit-scrollbar {
+            display: none;
+        }
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.horizontalScrollingContainer>* {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}

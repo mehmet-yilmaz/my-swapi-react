@@ -1,0 +1,35 @@
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(80, 81, 77, 0.589);
+    color: black;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.loader {
+    margin: auto;
+    width:50%;
+    height: 50%;
+    border-radius: 20px;
+    border: 5px double #ff3;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.logo {
+    align-items: center;
+}
+.text {
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+@media screen and (min-width: 600px) {
+    .loader {
+        width: 20%;
+    }
+}

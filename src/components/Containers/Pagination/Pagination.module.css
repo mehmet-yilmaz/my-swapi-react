@@ -1,0 +1,44 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 50px;
+    font-size : small;
+    padding: 5px;
+}
+
+.pagination ul {
+    display: contents;
+    padding: 5px;
+}
+
+.pagination li {
+    margin: 0 5px;
+    list-style: none;
+    padding: 2px;
+}
+
+.pagination li.active {
+    border: 1px solid #fff
+}
+
+.pagination a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+    .pagination {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            min-height: 50px;
+            font-size: large;
+            padding: 5px;
+        }
+                .pagination li {
+                    margin: 0 15px;
+                    list-style: none;
+                    padding: 2px;
+                }
+}

@@ -1,0 +1,42 @@
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(80, 81, 77, 0.589);
+    color: aliceblue;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-size: xx-large;
+}
+
+.container {
+    margin: auto;
+    max-width: 50%;
+    border-radius: 20px;
+    border: 5px double #ff3;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.logo {
+    align-items: center;
+}
+
+.body {
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+.toolbar button {
+    background-color: #ff3;
+    padding: 10px;
+    color: black;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 900;
+    font-size: large;
+    text-transform: uppercase;
+}

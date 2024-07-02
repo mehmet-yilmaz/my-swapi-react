@@ -1,0 +1,19 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background: url('./assets/images/starwars-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* width: 100vw;
+  height: 100vh; */
+  color: azure;
+    font-family: "Black Ops One", system-ui;
+      font-style: normal;
+}
+
+.swheader {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
